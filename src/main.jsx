@@ -6,9 +6,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import PortalPage from './components/Portal.jsx';
-import LoginPage from './components/Login.jsx';
-import CreateAccountPage from './components/Creataccount.jsx';
+import PortalPage from './pages/Portal.jsx'; 
+import LoginPage from './pages/Login.jsx';
+import CreateAccountPage from './pages/Creataccount.jsx';
+import Rootpage from './pages/Rootpage.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/sign-up",
     element: <><CreateAccountPage /></>,
+  },
+  {
+    path: "/home",
+    element: <><Rootpage /></>,
   },
 ]);
 

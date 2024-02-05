@@ -1,11 +1,9 @@
-// import Logo from './assets/'
 
-import PortalPage from "./components/Portal"
 
 const App = () => {
   return (
-    <div>
-      <PortalPage/>
+    <div className="bg-gradient-to-b from-[#e4dede] to-[#efeded]">
+
     </div>
   )
 }

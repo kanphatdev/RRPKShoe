@@ -2,7 +2,7 @@ import { IoChevronBackOutline } from "react-icons/io5";
 
 const CreateAccountPage = () => {
   return (
-    <div className="bg-gray-200 min-h-screen flex items-center justify-center">
+    <div className="bg-gradient-to-b from-[#e4dede] to-[#efeded] min-h-screen flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-md max-w-md w-full">
 
         {/* Create Account Form */}
@@ -74,3 +74,40 @@ const CreateAccountPage = () => {
 };
 
 export default CreateAccountPage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
