@@ -10,6 +10,8 @@ import PortalPage from './pages/Portal.jsx';
 import LoginPage from './pages/Login.jsx';
 import CreateAccountPage from './pages/Creataccount.jsx';
 import Rootpage from './pages/Rootpage.jsx';
+import Profilepage from './pages/Profilepage.jsx';
+import ProductDetailpage from './pages/ProductDetailpage.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,11 +29,25 @@ const router = createBrowserRouter([
     path: "/home",
     element: <><Rootpage /></>,
   },
+  {
+    path: "/products",
+    element: <><Rootpage /></>,
+  },
+  {
+    path: "/profiles/:id",
+    element: <><Profilepage /></>,
+  },
+  {
+    path: "/products/:id",
+    element: <><ProductDetailpage /></>,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router} >
     <App />
+
+    </RouterProvider>
   </React.StrictMode>,
 )

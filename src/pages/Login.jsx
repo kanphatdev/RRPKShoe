@@ -1,5 +1,5 @@
 import Logo from '../assets/logo.jpg';
-
+import { Link } from "react-router-dom";
 const LoginPage = () => {
   return (
     <div className="bg-gradient-to-b from-[#e4dede] to-[#efeded] min-h-screen flex items-center justify-center">
@@ -32,13 +32,14 @@ const LoginPage = () => {
               className="w-full border border-gray-300 px-3 py-2 rounded-md focus:outline-none focus:ring focus:border-gray-500"
             />
           </div>
+          <Link to={'/home'}>
 
-          <button
-            type="submit"
-            className="text-white px-4 py-2 button-theme bg-slate-900 w-full hover:bg-gray-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
-          >
-            Log In
-          </button>
+            <Link to={'/home'}
+              className="text-white px-4 py-2 button-theme bg-slate-900 w-full hover:bg-gray-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
+            >
+              Log In
+            </Link  >
+          </Link>
         </form>
 
       </div>
