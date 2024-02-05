@@ -14,12 +14,12 @@ const PortalPage = () => {
         </div>
 
         {/* Create Account Button */}
-        <button className="px-4 py-2 bg-slate-900 text-slate-100 w-full mb-4 button-theme">
+        <button className="px-4 py-2 bg-[#424343] text-slate-100 w-full mb-4 button-theme">
           Log In
         </button>
 
         {/* Log In Button */}
-        <button className="text-white px-4 py-2 w-full hover:bg-gray-600 bg-gray-800 button-theme">
+        <button className="text-white px-4 py-2 w-full hover:bg-gray-600 bg-[#424343] button-theme">
           Create Account
         </button>
 

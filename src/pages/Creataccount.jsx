@@ -58,7 +58,7 @@ const CreateAccountPage = () => {
           <div className="flex justify-center items-center space-x-4">
             <button
               type="submit"
-              className="bg-slate-900 text-white px-4 py-2 button-theme w-full hover:bg-gray-600 focus:outline-none focus:shadow-outline-blue active:bg-gray-800"
+              className="bg-[#424343] text-white px-4 py-2 button-theme w-full hover:bg-gray-600 focus:outline-none focus:shadow-outline-blue active:bg-gray-800"
             >
               Log In
             </button>

@@ -32,14 +32,15 @@ const LoginPage = () => {
               className="w-full border border-gray-300 px-3 py-2 rounded-md focus:outline-none focus:ring focus:border-gray-500"
             />
           </div>
-          <Link to={'/home'}>
-
-            <Link to={'/home'}
-              className="text-white px-4 py-2 button-theme bg-slate-900 w-full hover:bg-gray-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
-            >
-              Log In
-            </Link  >
-          </Link>
+          <div className="mb-2">
+            <Link to={'/home'}>
+              <button
+                className="text-white px-4 py-2 button-theme bg-slate-900 w-full hover:bg-gray-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
+              >
+                Log In
+              </button  >
+            </Link>
+          </div>
         </form>
 
       </div>
