@@ -14,6 +14,7 @@ import Profilepage from './pages/Profilepage.jsx';
 import ProductDetailpage from './pages/ProductDetailpage.jsx';
 import ResetPasswordPage from './pages/Resetpassword.jsx';
 import Productpage from './pages/Productpage.jsx';
+import UpdateAddressPage from './pages/UpdateAddressPage.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
   {
     path: "/password/:id",
     element: <><ResetPasswordPage /></>,
+  },
+  {
+    path: "/updates-address/:id",
+    element: <><UpdateAddressPage /></>,
   },
 ]);
 
