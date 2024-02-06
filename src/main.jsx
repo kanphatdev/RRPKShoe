@@ -13,6 +13,7 @@ import Rootpage from './pages/Rootpage.jsx';
 import Profilepage from './pages/Profilepage.jsx';
 import ProductDetailpage from './pages/ProductDetailpage.jsx';
 import ResetPasswordPage from './pages/Resetpassword.jsx';
+import Productpage from './pages/Productpage.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/products",
-    element: <><Rootpage /></>,
+    element: <><Productpage /></>,
   },
   {
     path: "/profiles/:id",
