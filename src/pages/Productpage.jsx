@@ -2,6 +2,7 @@ import BottomNav from "../components/BottomNav"
 import Navbar from "../components/Navbar"
 
 
+
 const Productpage = () => {
   return (
     <div className="">
