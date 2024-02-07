@@ -15,6 +15,8 @@ import ProductDetailpage from './pages/ProductDetailpage.jsx';
 import ResetPasswordPage from './pages/Resetpassword.jsx';
 import Productpage from './pages/Productpage.jsx';
 import UpdateAddressPage from './pages/UpdateAddressPage.jsx';
+import Ordersuccess from './pages/Ordersuccess.jsx';
+import OrderHistoryPage from './pages/OrderHistoryPage.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -51,6 +53,14 @@ const router = createBrowserRouter([
   {
     path: "/updates-address/:id",
     element: <><UpdateAddressPage /></>,
+  },
+  {
+    path: "/ordersuccess",
+    element: <><Ordersuccess /></>,
+  },
+  {
+    path: "/orderhistory",
+    element: <><OrderHistoryPage /></>,
   },
 ]);
 

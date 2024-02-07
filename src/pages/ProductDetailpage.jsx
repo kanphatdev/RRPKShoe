@@ -10,7 +10,7 @@ const ProductDetailpage = () => {
     <div className="container mx-auto px-4">
       <div className="min-h-screen flex flex-col justify-center items-center">
         <ShoeCard />
-        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
           {ShoeviewData.map((shoe, i) => (
             <Shoeview key={i} shoe={shoe} />
           ))}
@@ -33,7 +33,7 @@ const ProductDetailpage = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center">
+      <div className="flex items-end justify-end">
         <div className="flex items-center justify-center">
           <button type="button" className="mx-3 pt-3">
             <FaPlus />
