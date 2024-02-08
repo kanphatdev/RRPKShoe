@@ -4,7 +4,7 @@ const OrderSuccessPage = () => {
   return (
     <div className="container mx-auto px-4">
       <div className="bg-gradient-to-b from-[#e4dede] to-[#efeded] min-h-screen flex flex-col justify-center items-center">
-        <AlertOrdersuccess/>
+    
         <div className="mt-4">
           <div className="bg-slate-200 p-8 rounded-lg shadow-md grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4">
             <div className="col-span-1">
