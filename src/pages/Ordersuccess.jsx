@@ -1,12 +1,27 @@
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom if you're using it for navigation
+import AlertOrdersuccess from "../components/AlertOrdersuccess";
 
 const OrderSuccessPage = () => {
   return (
     <div className="container mx-auto px-4">
-      <div className="min-h-screen flex flex-col justify-center items-center">
-        <h1 className="text-3xl font-bold text-green-600 mb-4">Order Placed Successfully!</h1>
-        <p className="text-lg mb-8">Thank you for your order. Your order has been successfully placed.</p>
-        <Link to="/" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Back to Home</Link>
+      <div className="bg-gradient-to-b from-[#e4dede] to-[#efeded] min-h-screen flex flex-col justify-center items-center">
+      
+       <div className="mt-4">
+       <div className="bg-slate-200 p-8 rounded-lg shadow-md grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4">
+  <div className="col-span-1">
+    <div className="grid grid-cols-2 gap-4">
+      <img src="https://snkrtoday.com/wp-content/uploads/2021/05/Nike-ZoomX-Vaporfly-NEXT-2-CU4111-700-6.jpeg" alt="" className="object-contain rounded-lg shadow-md" />
+    </div>
+  </div>
+  <div className="col-span-1">
+    <div className="bg-white p-4 rounded-lg shadow-md">
+      <h1 className="text-center text-2xl">Nike Women Air Force 1 Shadow</h1>
+      <div className="flex justify-end items-end">
+        <p className="text-red-500 text-lg">110฿</p>
+      </div>
+    </div>
+  </div>
+</div>
+       </div>
       </div>
     </div>
   );
